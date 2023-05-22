@@ -8,6 +8,7 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { BsCart } from "react-icons/bs";
 import { BiMenuAltRight } from "react-icons/bi";
 import { VscChromeClose } from "react-icons/vsc";
+import MenuMobile from "./MenuMobile";
 
 const Header = () => {
   const [mobileMenu, setmobileMenu] = useState(false);
@@ -22,7 +23,16 @@ const Header = () => {
         <Link href="/">
           <img src="/logo.svg" className=" w-[40px] md:w-[60px]" alt="logo" />
         </Link>
+
         <Menu showCatmenu={showCatmenu} setshowCatmenu={setshowCatmenu} />
+
+        {mobileMenu && (
+          <MenuMobile
+            showCatmenu={showCatmenu}
+            setshowCatmenu={setshowCatmenu}
+            setmobileMenu={setmobileMenu}
+          />
+        )}
 
         <div className="flex items-center gap-2 text-black">
           {/* Icon frvt */}
@@ -40,6 +50,7 @@ const Header = () => {
             </div>
           </div>
           {/* icons end */}
+          {/* Mobile icon start */}
           <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative -mr-2 ">
             {mobileMenu ? (
               <VscChromeClose
