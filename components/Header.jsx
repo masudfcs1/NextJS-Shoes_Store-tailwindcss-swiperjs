@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Wrapper from "./Wrapper";
 import Link from "next/link";
 import Menu from "./Menu";
@@ -15,6 +15,27 @@ const Header = () => {
   const [show, setshow] = useState("translate-y-0");
   const [showCatmenu, setshowCatmenu] = useState(false);
   // const [mobileMenu, setmobileMenu] = useState(initialState)
+  const [lastscrolly, setlastscrolly] = useState(0);
+
+  const controlNavbar = () => {
+    if (window.scrollY > 200) {
+      if (window.scrollY > lastscrolly && !mobileMenu) {
+        setshow("-translate-y-[80px]");
+      } else {
+        setshow("shadow-sm");
+      }
+    } else {
+      setshow("translate-y-0");
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.addEventListener("scroll", controlNavbar);
+    };
+  }, [lastscrolly]);
+
   return (
     <header
       className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
