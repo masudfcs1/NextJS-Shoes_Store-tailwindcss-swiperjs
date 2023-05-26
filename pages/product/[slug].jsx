@@ -13,7 +13,37 @@ const ProductDetails = () => {
           >
             <ProductDetailsCarousel />
           </div>
-          <div className=" flex-[1] py-3 ">Right</div>
+          <div className=" flex-[1] py-3 ">
+            {/* Product Title */}
+            <div className=" text-[34px] font-semibold mb-2 ">
+              Jordan Retro 6
+            </div>
+
+            {/* Prouct subtile */}
+            <div className=" text-lg font-semibold mb-b ">
+              Men&apos;s Golf Shoes
+            </div>
+
+            {/* product Price */}
+            <div className=" text-lg font-semibold ">MRP: $119.00</div>
+
+            <div className=" text-md font-semibold text-black/[0.5] ">
+              Incl. of text
+            </div>
+
+            <div className=" text-md font-medium text-black/[0.5] mb-20  ">{`Also includes all applicable duties`}</div>
+
+            {/* Produc Size Range Start */}
+
+            <div className=" mb-10 ">
+              <div className=" flex justify-between mb-2 ">
+                <div className=" text-md font-semibold ">Select Size</div>
+                <div className=" text-md font-medium text-black/[0.5] cursor-pointer ">
+                  Select Guide
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </Wrapper>
     </div>
