@@ -31,7 +31,9 @@ const ProductDetails = () => {
               Incl. of text
             </div>
 
-            <div className=" text-md font-medium text-black/[0.5] mb-20  ">{`Also includes all applicable duties`}</div>
+            <div className=" text-md font-medium text-black/[0.5] mb-20  ">
+              {`Also includes all applicable duties`}
+            </div>
 
             {/* Produc Size Range Start */}
 
@@ -42,7 +44,55 @@ const ProductDetails = () => {
                   Select Guide
                 </div>
               </div>
+              {/* Heading End */}
+              <div className=" grid grid-cols-3 gap-2">
+                <div className=" border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer ">
+                  UK 6
+                </div>
+                <div className=" border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer ">
+                  UK 6
+                </div>
+                <div className=" border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer ">
+                  UK 6
+                </div>
+                <div className=" border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer ">
+                  UK 6
+                </div>
+                <div className=" border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer ">
+                  UK 6
+                </div>
+                <div className=" border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer ">
+                  UK 6
+                </div>
+                <div className=" border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer ">
+                  UK 6
+                </div>
+                <div className=" border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer ">
+                  UK 6
+                </div>
+                <div className=" border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer ">
+                  UK 6
+                </div>
+                <div className=" border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer ">
+                  UK 6
+                </div>
+                <div className=" border rounded-md text-center py-3 font-medium border-black/[0.1] cursor-not-allowed opacity-50">
+                  UK 6
+                </div>
+              </div>
+              {/* Size END */}
+
+              {/* show error start */}
+              <div className=" text-red-600 mt-1">
+                Size selection is required
+              </div>
+              {/* show error end */}
             </div>
+            {/* Product size range end */}
+            <button className=" w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform mb-3 active:scale-95 hover:opacity-75">
+              Add to Cart
+            </button>
+            {/* ADD TO Cart button End */}
           </div>
         </div>
       </Wrapper>
