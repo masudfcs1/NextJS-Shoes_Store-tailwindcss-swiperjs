@@ -89,7 +89,7 @@ const ProductDetails = () => {
               </div>
               {/* show error end */}
             </div>
-            {/* Product size range end */}
+            {/* PRODUCT SIZE RANGE END */}
             <button className="w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform mb-3 active:scale-95 hover:opacity-75">
               Add to Cart
             </button>
@@ -98,12 +98,16 @@ const ProductDetails = () => {
               Whishlist
               <IoMdHeartEmpty size={23} />
             </button>
-          </div>
-          <div>
-            <div className="text-lg">Product Details</div>
-            <div className=" text-md mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus, perferendis!
+            <div>
+              <div className="text-lg font-bold mb-5">Product Details</div>
+              <div className=" text-md mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus, perferendis!
+              </div>
+              <div className=" text-md mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus, perferendis!
+              </div>
             </div>
           </div>
         </div>
