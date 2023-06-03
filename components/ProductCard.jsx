@@ -5,7 +5,7 @@ import React from "react";
 const ProductCard = () => {
   return (
     <Link
-      href="/prodcut/1"
+      href="/product/1"
       className=" transform overflow-hidden bg-white duration-200 hover:scale-105 cursor-pointer"
     >
       <img src="/product-1.webp" alt="product image" />

@@ -1,4 +1,5 @@
 import ProductDetailsCarousel from "@/components/ProductDetailsCarousel";
+import RelatedProducts from "@/components/RelatedProducts";
 import Wrapper from "@/components/Wrapper";
 import React from "react";
 import { IoMdHeartEmpty } from "react-icons/io";
@@ -94,7 +95,7 @@ const ProductDetails = () => {
               Add to Cart
             </button>
             {/* ADD TO Cart button End */}
-            <button className="w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform flex items-center justify-center gap-2 mb-3 active:scale-95 hover:opacity-75">
+            <button className="w-full py-4 rounded-full text-black border-4 text-lg font-medium transition-transform flex items-center justify-center gap-2 mb-3 active:scale-95  hover:opacity-70 ">
               Whishlist
               <IoMdHeartEmpty size={23} />
             </button>
@@ -111,6 +112,7 @@ const ProductDetails = () => {
             </div>
           </div>
         </div>
+        <RelatedProducts />
       </Wrapper>
     </div>
   );
