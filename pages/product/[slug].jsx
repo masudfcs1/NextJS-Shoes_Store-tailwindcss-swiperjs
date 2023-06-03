@@ -1,6 +1,7 @@
 import ProductDetailsCarousel from "@/components/ProductDetailsCarousel";
 import Wrapper from "@/components/Wrapper";
 import React from "react";
+import { IoMdHeartEmpty } from "react-icons/io";
 
 const ProductDetails = () => {
   return (
@@ -89,10 +90,21 @@ const ProductDetails = () => {
               {/* show error end */}
             </div>
             {/* Product size range end */}
-            <button className=" w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform mb-3 active:scale-95 hover:opacity-75">
+            <button className="w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform mb-3 active:scale-95 hover:opacity-75">
               Add to Cart
             </button>
             {/* ADD TO Cart button End */}
+            <button className="w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform flex items-center justify-center gap-2 mb-3 active:scale-95 hover:opacity-75">
+              Whishlist
+              <IoMdHeartEmpty size={23} />
+            </button>
+          </div>
+          <div>
+            <div className="text-lg">Product Details</div>
+            <div className=" text-md mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus, perferendis!
+            </div>
           </div>
         </div>
       </Wrapper>
