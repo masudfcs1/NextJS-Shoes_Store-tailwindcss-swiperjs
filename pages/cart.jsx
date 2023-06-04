@@ -2,6 +2,7 @@ import React from "react";
 import Wrapper from "@/components/Wrapper";
 import Image from "next/image";
 import Link from "next/link";
+import CartItem from "@/components/CartItem";
 
 const Cart = () => {
   return (
@@ -14,6 +15,26 @@ const Cart = () => {
           </div>
         </div>
         {/* HEADING AND PARAGRAPH END */}
+
+        {/* Cart Content start */}
+
+        <div className=" flex flex-col lg:flex-row gap-12 py-10">
+          {/* Cart Items start */}
+          <div className=" flex-[2] ">
+            <div className=" text-lg font-bold">Cart Item</div>
+            <CartItem />
+            <CartItem />
+            <CartItem />
+          </div>
+
+          {/* Cart Items End */}
+          {/* Summary Start */}
+          <div className=" flex-[1] ">
+            <div className=" text-lg font-bold">Summary</div>
+          </div>
+          {/* Summary END */}
+        </div>
+        {/* Cart Items END */}
       </Wrapper>
     </div>
   );
