@@ -62,6 +62,7 @@ const CartItem = () => {
               </select>
             </div>
           </div>
+          <RiDeleteBin6Fill className=" cursor-pointer text-black/[0.5] hover:text-black text-[16px] md:text-[20px] " />
         </div>
       </div>
     </div>
