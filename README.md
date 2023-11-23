@@ -16,8 +16,18 @@ Live Demo-
 - Tailwind-css
 - ReactJS
 
-- 
+  
 NextJS-Shoes_Store, a dynamic web application powered by React.js and Tailwind CSS, seamlessly integrates optimal performance with modular components and a sleek design. This harmonious combination ensures a visually appealing and responsive user experience, making it a standout in the world of web applications.
+
+
+
+![image](https://github.com/masudfcs1/NextJS-Shoes_Store/assets/57311382/717b1602-1871-4a6f-a25e-b6c3a32d8c00)
+![image](https://github.com/masudfcs1/NextJS-Shoes_Store/assets/57311382/6ff500b8-1f25-4529-b921-f0ba04294590)
+![image](https://github.com/masudfcs1/NextJS-Shoes_Store/assets/57311382/c2e03556-2a3a-41e5-9a6c-85e6bb115dea)
+![image](https://github.com/masudfcs1/NextJS-Shoes_Store/assets/57311382/435b3d68-958c-46b0-8852-759ee4e87c8d)
+
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
