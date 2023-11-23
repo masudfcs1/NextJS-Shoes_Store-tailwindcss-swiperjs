@@ -5,8 +5,18 @@ First, run the development server:
 
 ```bash
 npm run dev
-
 ```
+# [Live Demo]()
+
+Live Demo-
+
+
+ NextJS-Shoes_Store WebApplication
+- NextJS
+- Tailwind-css
+- ReactJS
+
+- 
 NextJS-Shoes_Store, a dynamic web application powered by React.js and Tailwind CSS, seamlessly integrates optimal performance with modular components and a sleek design. This harmonious combination ensures a visually appealing and responsive user experience, making it a standout in the world of web applications.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
