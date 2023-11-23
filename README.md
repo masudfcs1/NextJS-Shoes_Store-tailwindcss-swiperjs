@@ -16,7 +16,7 @@ Live Demo->https://shoes-store-green.vercel.app/
 - Tailwind-css
 - ReactJS
 
-  ![Group 7 (1)](https://github.com/masudfcs1/NextJS-Shoes_Store/assets/57311382/a90140b4-557f-4a55-9146-ab1b80be16f7)
+![Group 7 (1)](https://github.com/masudfcs1/NextJS-Shoes_Store/assets/57311382/0f47d5b1-19dd-450f-824a-b3fa6d690d69)
 
 NextJS-Shoes_Store, a dynamic web application powered by React.js and Tailwind CSS, seamlessly integrates optimal performance with modular components and a sleek design. This harmonious combination ensures a visually appealing and responsive user experience, making it a standout in the world of web applications.
 
